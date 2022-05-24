@@ -9,3 +9,59 @@
     padding: 10px;
     float: right;
 }
+
+.head>a:hover{
+    text-decoration: underline;
+}
+
+.logo>img{
+    width: 400px;
+    position: relative;
+    left: 550px;
+    top: 200px;
+}
+
+.box{
+    border-radius: 30px;
+    height: 30px;
+    width: 500px;
+    position: relative;
+    top: 220px;
+    left: 500px;
+    margin: 10px;
+}
+
+.searchbar{
+    width: 600px;
+    position: relative;
+    top: 200px;
+    left: 460px;
+}
+
+.inputbox{
+    border: 1px solid red;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    left: 430px;
+    top: 200px;
+    height: 30px;
+    width: 600px;
+    border-radius: 30px;
+    border-color: darkgray;
+}
+
+.b1{
+    padding: 10px;
+    position: relative;
+    top: 260px;
+    right: 50px;
+    margin: 10px;
+}
+
+.b2{
+    padding: 10px;
+    position: relative;
+    top: 260px;
+    right: 10px;
+}
