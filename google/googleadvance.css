@@ -1,8 +1,75 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#google-search{
+    display: flex;
+   position: relative;
+   left: 1450px;
+   bottom: 40px;
 }
 
-.nav1{
-    padding: 10px;
+#google-image{
+    position: relative;
+    left: 1300px;
+}
+
+.head > a {
+    display: flex;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+.head > a:hover {
+  text-decoration: underline;
+}
+
+.logo > img {
+    display: flex;
+  width: 100px;
+  position: relative;
+  bottom: 70px;
+  
+}
+
+.title {
+    font-weight: bolder;
+    display: flex;
+  color: #e21f1f;
+  position: relative;
+  left: 50px;
+  bottom: 20px;
+  font-size: 25px;
+ 
+}
+
+.hr1 {
+  position: relative;
+  top: 50px;
+}
+
+.t1{
+position: relative;
+left: 50px;
+top: 50px;
+font-weight: bolder;
+font-size: 30px;
+}
+
+.t2{
+    display:flex;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    font-size: medium;
+}
+
+.i1{
+    position: relative;
+    left:200px;
+    top: 75px;
+    width: 600px;
+    height: 25px;
 }
